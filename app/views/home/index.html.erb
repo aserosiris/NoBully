@@ -1,2 +1,8 @@
-<h1>Home#index</h1>
-<p>Find me in app/views/home/index.html.erb</p>
+
+<div class="jumbotron"> 
+ <h1>No Bully UACJ</h1> 
+ <p>Una Aplicacion creada para la denuncia del bullying en ambientes escolares y laborales</p>
+ <%= link_to 'About Us', home_about_path, class: 'btn btn-default' %> 
+ <%= link_to 'Home', root_path, class: 'btn btn-primary' %>
+</div>
+<%= image_tag("/images/child.png", :alt => "ninios-jugando", height: 300, width: 300, ) %>
